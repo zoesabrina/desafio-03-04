@@ -2,13 +2,13 @@ programa {
 funcao inicio() {
 inteiro menu,x,y
 
-escreva("\n Escreva um número:")
+escreva("\n Escreva um nÃºmero:")
 leia (x)
-escreva("\n Escreva um segundo número:")
+escreva("\n Escreva um segundo nÃºmero:")
 leia (y)
 
 faca{
-escreva("Escolha uma opção: \n")
+escreva("Escolha uma opÃ§Ã£o: \n")
 escreva("1 - multiplicar \n")
 escreva("2 - subtrair \n")
 escreva("3 - somar \n")
@@ -18,30 +18,30 @@ leia (menu)
 
 escolha(menu){
 caso 1:
-	escreva("A multiplicação desses números fica: ", x*y, "\n")
-	escreva("Deseja sair(5) ou voltar para o menú(0)? é só apertar um desses números: ")
+	escreva("A multiplicaÃ§Ã£o desses nÃºmeros fica: ", x*y, "\n")
+	escreva("Deseja sair(5) ou voltar para o menÃº(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
 	leia(menu)
 	pare
 caso 2:
-	escreva("A subtração desses números fica: ", x-y, "\n")
-	escreva("Deseja sair(5) ou voltar para o menú(0)? é só apertar um desses números: ")
+	escreva("A subtraÃ§Ã£o desses nÃºmeros fica: ", x-y, "\n")
+	escreva("Deseja sair(5) ou voltar para o menÃº(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
 	leia(menu)
 	pare
 caso 3:
-	escreva("A soma desses números fica: ", x+y, "\n")
-	escreva("Deseja sair(5) ou voltar para o menú(0)? é só apertar um desses números: ")
+	escreva("A soma desses nÃºmeros fica: ", x+y, "\n")
+	escreva("Deseja sair(5) ou voltar para o menÃº(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
 	leia(menu)
 	pare
 caso 4:
-	escreva("A divisão desses números fica: ", x/y, "\n")
-	escreva("Deseja sair(5) ou voltar para o menú(0)? é só apertar um desses números: ")
+	escreva("A divisÃ£o desses nÃºmeros fica: ", x/y, "\n")
+	escreva("Deseja sair(5) ou voltar para o menÃº(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
 	leia(menu)
 	pare
 caso 5:
 pare
-	caso contrario
-	escreva("Operação não válida!! \n")
-	escreva("Deseja sair(5) ou voltar para o menú(0)? é só apertar um desses números: ")
+	caso contrario:
+	escreva("OperaÃ§Ã£o nÃ£o vÃ¡lida!! \n")
+	escreva("Deseja sair(5) ou voltar para o menÃº(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
 	leia(menu)
       }
     }enquanto(menu<>5)
